@@ -11,3 +11,21 @@ This an official reference for [Virtual Handheld](https://vhvr.carrd.co/)'s [OSC
 | Top Screen Enabled  | VH/Screens_Top      | Bool | True / False | Is the top screen of the handheld enabled?                               |
 | Color Profile       | VH/Color_Profile    | Int  | 0 - 255      | The currently selected color profile in the Colors menu                  |
 | Track Handheld To   | VH/Tracker_Mode     | Int  | 1 - 5        | Left Hand = 1, Right Hand = 2, Head Look = 3, Custom = 4, Both Hands = 5 |
+
+# VH Set Up
+To use Virtual Handheld's OSC functionality, you must first enable it on the OSC in the Virtual Handheld Settings. (VH Settings can be found in your SteamVR dashboard or on your desktop by double clicking the [VH] system tray icon.)
+
+![OSC Master Toggle](VH-OSC-Master-Toggle.png)
+
+## Enable OSC Chatbox
+If you want a "Playing on Virutal Handheld" chatbox to appear over your avatar in VRChat when you are using the handheld, you must enable it on the Chatbox tab in the VH Settings.
+
+**Other users can see this chatbox. Please be mindful of others when using this feature.**
+
+![OSC Chatbox Toggle](VH-OSC-Chatbox-Toggle.png)
+
+## Enable OSC Avatar Parameters
+If you want VH to send parameters for controlling things such as avatar animations, prop toggles, etc., you must enable them in Avatar tab in the VH Settings.
+
+Note that you must be in an avatar that supports the supplied parameters in order to make use of this feature.
+![OSC Avatar Parameters Toggle](VH-OSC-Avatar-Params-Toggle.png)

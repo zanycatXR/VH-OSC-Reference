@@ -1,7 +1,7 @@
 # VH-OSC v1.0 Reference Guide
 This an official reference for [Virtual Handheld](https://vhvr.carrd.co/)'s [OSC](https://opensoundcontrol.stanford.edu/) functionality, made for VR avatar creators and asset developers.
 
-# Parameter List
+# Avatar Parameter List
 | Display Name        | Parameter Name      | Type | Range        | Description                                                              |
 |---------------------|---------------------|------|--------------|--------------------------------------------------------------------------|
 | Handheld On         | VH/Handheld_On      | Bool | True / False | Is the virtual handheld toggled on?                                      |

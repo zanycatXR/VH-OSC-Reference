@@ -29,3 +29,35 @@ If you want VH to send parameters for controlling things such as avatar animatio
 
 Note that you must be in an avatar that supports the supplied parameters in order to make use of this feature.
 ![OSC Avatar Parameters Toggle](VH-OSC-Avatar-Params-Toggle.png)
+
+# VRChat Set Up
+To use VH-OSC features with VRChat, OSC must be enabled in VRChat as well as VH. You can do this via the Action Menu ("R" key on desktop, long press menu button in VR) and going to *Options > OSC > Enabled*.
+
+![Enable OSC in VRChat](https://user-images.githubusercontent.com/737888/154179201-ec413948-7013-494a-81fb-4b5e1129cf5f.jpg)
+For more information on using OSC with VRChat, see [VRChat's OSC documentation](https://docs.vrchat.com/docs/osc-overview).
+
+## Avatar Props
+All VH avatar props are created and maintained by third parties. Please do not contact the developer of Virtual Handheld for help creating avatars.
+
+However, if you are an asset creator and have made your own handheld prop for VH, please contact the developer via [discord](https://discord.gg/V3hyAxFUwq) to have yours added here!
+
+### Handheld Avatar Prop for Virtual Handheld
+Creator: Rycia
+
+Jinxxy: https://jinxxy.com/Rycia/virtualhandheld
+
+Booth: https://booth.pm/en/items/7381922
+
+## Sample Avatars
+Here are some avatars you can use to test the VH-OSC functionality in VRChat:
+
+Deira: https://vrchat.com/home/avatar/avtr_5207becf-9350-4c13-8083-37736f5dfc69
+
+DJ Froglin: https://vrchat.com/home/avatar/avtr_0a8d33da-b379-427e-a6c1-443c0e4da503
+
+# Troubleshooting
+Note that Virtual Handheld currently only has a basic [OscCore](https://github.com/stella3d/OscCore) implementation and has not yet implemented [OSCQuery](https://github.com/Vidvox/OSCQueryProposal). Due to the limits of this implementation, only one OSC service can be recieving on a port at a time. This means that other programs may conflict with VH-OSC. If you have issues, try disabling other OSC programs or programs that listen on the same port as VRChat (port 9000).
+
+For debugging the VRChat side of OSC, use the built-in [OSC debugger](https://docs.vrchat.com/docs/osc-debugging).
+
+If issues with VH-OSC persist, please make a post in the support forum on [discord](https://discord.gg/V3hyAxFUwq). 

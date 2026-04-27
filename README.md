@@ -1,6 +1,8 @@
 # VH-OSC v1.0 Reference Guide
 This an official reference for [Virtual Handheld](https://vhvr.carrd.co/)'s [OSC](https://opensoundcontrol.stanford.edu/) functionality, made for VR avatar creators and asset developers.
 
+Note that at this time VH is only capable of sending OSC data. It is not set up recieve any kind of OSC data.
+
 # Avatar Parameter List
 | Display Name        | Parameter Name      | Type | Range        | Description                                                              |
 |---------------------|---------------------|------|--------------|--------------------------------------------------------------------------|

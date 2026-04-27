@@ -64,6 +64,13 @@ Deira: https://vrchat.com/home/avatar/avtr_5207becf-9350-4c13-8083-37736f5dfc69
 
 DJ Froglin: https://vrchat.com/home/avatar/avtr_0a8d33da-b379-427e-a6c1-443c0e4da503
 
+# Advanced Config
+For advanced users who wish to modify the IP address, port, loop times and parameter addresses for VH to send OSC data to, you can open the OSC Config Directory by going to the OSC menu in the VH settings, enable "Show Advanced..." and click the button that says "Open VH OSC Config Directory".
+
+Alternatively, the `osc_config.txt` file can be found in `<user>\Documents\My Games\Virtual Handheld\OSC`.
+
+Note that modifying this file may cause unintended behavior and can break compatability. It is recommended to not change the contents of this file unless you know what you are doing!
+
 # Troubleshooting
 Note that Virtual Handheld currently only has a basic [OscCore](https://github.com/stella3d/OscCore) implementation and has not yet implemented [OSCQuery](https://github.com/Vidvox/OSCQueryProposal). Due to the limits of this implementation, only one OSC service can be recieving on a port at a time. This means that other programs may conflict with VH-OSC. If you have issues, try disabling other OSC programs or programs that listen on the same port as VRChat (port 9000).
 

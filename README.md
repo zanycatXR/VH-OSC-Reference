@@ -36,15 +36,6 @@ To use VH-OSC features with VRChat, OSC must be enabled in VRChat as well as VH.
 ![Enable OSC in VRChat](https://user-images.githubusercontent.com/737888/154179201-ec413948-7013-494a-81fb-4b5e1129cf5f.jpg)
 For more information on using OSC with VRChat, see [VRChat's OSC documentation](https://docs.vrchat.com/docs/osc-overview).
 
-# Other Application Set Up
-OSC is an open standard that any game/app/platform developer can make use of and is not specifically tied to Virtual Handheld or VRChat. If you want to use Virtual Handheld's OSC functionality with other apps that support OSC, please see that app's OSC documentation.
-
-[ChilloutVR OSC documentation](https://docs.chilloutvr.net/chilloutvr/game/osc/)
-
-[Resonite OSC documentation](https://wiki.resonite.com/OSC)
-
-Note that for non-VRChat applications, avatar parameter addresses may be prefixed with `/avatar/parameters/`, so the full paraameter address for "Handheld On" would be `/avatar/parameters/VH/Handheld_On`.
-
 ## Avatar Props
 All VH avatar props are created and maintained by third parties. Please do not contact the developer of Virtual Handheld for help creating avatars.
 
@@ -63,6 +54,15 @@ Here are some avatars you can use to test the VH-OSC functionality in VRChat:
 Deira: https://vrchat.com/home/avatar/avtr_5207becf-9350-4c13-8083-37736f5dfc69
 
 DJ Froglin: https://vrchat.com/home/avatar/avtr_0a8d33da-b379-427e-a6c1-443c0e4da503
+
+# Other Application Set Up
+OSC is an open standard that any game/app/platform developer can make use of and is not specifically tied to Virtual Handheld or VRChat. If you want to use Virtual Handheld's OSC functionality with other apps that support OSC, please see that app's OSC documentation.
+
+[ChilloutVR OSC documentation](https://docs.chilloutvr.net/chilloutvr/game/osc/)
+
+[Resonite OSC documentation](https://wiki.resonite.com/OSC)
+
+Note that for non-VRChat applications, avatar parameter addresses may be prefixed with `/avatar/parameters/`, so the full paraameter address for "Handheld On" would be `/avatar/parameters/VH/Handheld_On`.
 
 # Advanced Config
 For advanced users who wish to modify the IP address, port, loop times and parameter addresses for VH to send OSC data to, you can open the OSC Config Directory by going to the OSC menu in the VH settings, enable "Show Advanced..." and click the button that says "Open VH OSC Config Directory".

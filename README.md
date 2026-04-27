@@ -62,7 +62,7 @@ OSC is an open standard that any game/app/platform developer can make use of and
 
 [Resonite OSC documentation](https://wiki.resonite.com/OSC)
 
-Note that for non-VRChat applications, avatar parameter addresses may be prefixed with `/avatar/parameters/`, so the full paraameter address for "Handheld On" would be `/avatar/parameters/VH/Handheld_On`.
+Note that for non-VRChat applications, avatar parameter addresses may be prefixed with `/avatar/parameters/`, so the full parameter address for "Handheld On" would be `/avatar/parameters/VH/Handheld_On`.
 
 # Advanced Config
 For advanced users who wish to modify the IP address, port, loop times and parameter addresses for VH to send OSC data to, you can open the OSC Config Directory by going to the OSC menu in the VH settings, enable "Show Advanced..." and click the button that says "Open VH OSC Config Directory".

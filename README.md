@@ -30,6 +30,7 @@ If you want a "Playing on Virutal Handheld" chatbox to appear over your avatar i
 If you want VH to send parameters for controlling things such as avatar animations, prop toggles, etc., you must enable them in Avatar tab in the VH Settings.
 
 Note that you must be in an avatar that supports the supplied parameters in order to make use of this feature.
+
 ![OSC Avatar Parameters Toggle](VH-OSC-Avatar-Params-Toggle.png)
 
 # VRChat Set Up

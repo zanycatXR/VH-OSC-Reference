@@ -1,5 +1,5 @@
 # VH-OSC v1.0 Reference Guide
-This is an official reference for [Virtual Handheld](https://vhvr.carrd.co/)'s [OSC](https://opensoundcontrol.stanford.edu/) functionality, made for VH users, VR avatar creators and asset/prefab developers.
+This is an official reference for [Virtual Handheld](https://vhvr.carrd.co/)'s [OSC](https://opensoundcontrol.stanford.edu/) functionality, made for VH users, VR avatar creators and asset/prefab developers. While these features primaraily target [VRChat](https://hello.vrchat.com/), users of other applications such as [ChilloutVR](https://chilloutvr.net/) and [Resonite](https://resonite.com/) may also make use of this information.
 
 Note that at this time VH is only capable of sending OSC data. It is not set up recieve any kind of OSC data.
 

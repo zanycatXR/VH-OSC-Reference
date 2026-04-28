@@ -3,7 +3,7 @@ This is an official reference for [Virtual Handheld](https://vhvr.carrd.co/)'s [
 While these features primaraily target [VRChat](https://hello.vrchat.com/), users of other applications such as [ChilloutVR](https://chilloutvr.net/) and [Resonite](https://resonite.com/) may also make use of this information.
 
 Note that at this time VH is only capable of sending OSC data.
-It is not set up recieve any kind of OSC data.
+It is not set up receive any kind of OSC data.
 
 # Avatar Parameter List
 | Display Name        | Parameter Name      | Type | Range        | Description                                                              |

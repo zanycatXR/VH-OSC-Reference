@@ -23,7 +23,7 @@ To use Virtual Handheld's OSC functionality, you must first enable it on the OSC
 ![OSC Master Toggle](VH-OSC-Master-Toggle.png)
 
 ## Enable OSC Chatbox
-If you want a "Playing on Virutal Handheld" chatbox to appear over your avatar in VRChat when you are using the handheld, you must enable it on the Chatbox tab in the VH Settings.
+If you want a "Playing on Virtual Handheld" chatbox to appear over your avatar in VRChat when you are using the handheld, you must enable it on the Chatbox tab in the VH Settings.
 
 **Other users can see this chatbox. Please be mindful of others when using this feature.**
 

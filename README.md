@@ -22,12 +22,47 @@ To use Virtual Handheld's OSC functionality, you must first enable it on the OSC
 
 ![OSC Master Toggle](VH-OSC-Master-Toggle.png)
 
-## Enable OSC Chatbox
+## OSC Chatbox Settings
+
+### Enable OSC Chatbox
+
 If you want a "Playing on Virtual Handheld" chatbox to appear over your avatar in VRChat when you are using the handheld, you must enable it on the Chatbox tab in the VH Settings.
 
-**Other users can see this chatbox. Please be mindful of others when using this feature.**
+**Note: Other users can see this chatbox. Please be mindful of others when using this feature.**
 
 ![OSC Chatbox Toggle](VH-OSC-Chatbox-Toggle.png)
+
+### Message Template
+
+The basis of the message that will be sent via the chatbox.
+
+- *Playing on Virtual Handheld*
+- *Playing "(Window Title)" on Virtual Handheld*
+
+The Window Title used is based on the "Get Title From" setting.
+
+While not shown in the UI, all VH-OSC chatbox messages are prefixed with a gamepad emoji (🎮)
+
+### Get Title From
+
+Where the Window Title of the game you are playing should be grabbed from.
+
+| Name              | Description                                                                         |
+|-------------------|-------------------------------------------------------------------------------------|
+| Auto              | Defaults to Foreground Window if not capturing a specific window on the Main Screen |
+| Main Screen       | The window currently set to be captured on the Main Screen in the Screens settings  |
+| Top Screen        | The window currently set to be captured on the Top Screen in the Screens settings   |
+| Foreground Window | The window that the OS is currently sending keyboard input to                       |
+
+### Update Message When
+
+The OSC chatbox message gets updated when this event occurs.
+
+| Name             | Description                                                                                                                |
+|------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Manually Applied | The "Apply" button is clicked                                                                                              |
+| Chatbox Shown    | The handheld is toggled on to show the chatbox                                                                             |
+| Loop Time        | The chatbox refreshes to keep itself alive (frequency is configured via config file; by default this is every 1.5 seconds) |
 
 ## Enable OSC Avatar Parameters
 If you want VH to send parameters for controlling things such as avatar animations, prop toggles, etc., you must enable them in Avatar tab in the VH Settings.
